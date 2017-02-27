@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Mada');
+body {
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.revenant_mainblock {
+  background-image: url(../img/slideshowFull3.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 370px;
+  border-top: 5px solid gray;
+  color: #5d5d5d;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  overflow: hidden;
+}
+.revenant_mainblock_header {
+  position: relative;
+  text-align: left;
+  font-size: 530%;
+  font-family: 'Mada', sans-serif;
+  text-transform: uppercase;
+  margin-top: 3%;
+}
+.revenant_mainblock_header .revenant_mainblock_image {
+  position: absolute;
+  top: 80px;
+  left: 895px;
+  display: block;
+}
+.revenant_mainblock_container {
+  text-align: left;
+  font-size: 130%;
+  padding-left: 0.4%;
+  font-family: 'Mada', sans-serif;
+  width: 20%;
+}
+.revenant_titleblock {
+  height: 15%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.4%;
+}
+.revenant_titleblock_title {
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  font-size: 500%;
+  color: #5d5d5d;
+  line-height: 100%;
+}
+.revenant_titleblock_slogan {
+  font-family: 'Sansita', sans-serif;
+  color: #5d5d5d;
+  font-size: 167%;
+  line-height: 100%;
+}
+.revenant_slogan_under_mainblock {
+  margin: 7px 200px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #5d5d5d;
+  font-size: 15px;
+  font-family: Sylfaen;
+  border-bottom: 2px dotted rgba(79, 47, 92, 0.31);
+}
