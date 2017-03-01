@@ -2,161 +2,138 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Mada');
 @import url(http://fonts.googleapis.com/css?family=Lato);
-body {
-  background-size: 100% 100%;
-  height: 100%;
-  width: 100%;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font: inherit;
 }
-.revenant_mainblock {
-  background-image: url(../img/slideshowFull3.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 370px;
-  color: #5d5d5d;
-  display: flex;
-  flex-direction: column;
-  padding-left: 10%;
-  overflow: hidden;
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
 }
-.revenant_mainblock_header {
+.container {
   position: relative;
-  text-align: left;
-  font-size: 530%;
-  font-family: 'Mada', sans-serif;
-  text-transform: uppercase;
-  margin-top: 3%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-.revenant_mainblock_header .revenant_mainblock_image {
-  position: absolute;
-  top: 80px;
-  left: 895px;
+.container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+html {
+  font: 16px sans-serif;
+}
+.preheader {
+  background-color: #3bbdfb;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  color: #fff;
+  font-size: 12px;
+}
+.preheader .nav {
+  list-style: none;
+  float: right;
+}
+.preheader .nav li {
   display: block;
+  float: left;
+  padding: 0 10px;
+  line-height: 28px;
 }
-.revenant_mainblock_container {
-  text-align: left;
-  font-size: 130%;
-  padding-left: 0.4%;
-  font-family: 'Mada', sans-serif;
-  width: 20%;
+.preheader .nav li:not(:last-child) {
+  border-right: 1px solid #eee;
 }
-.revenant_titleblock {
-  height: 15%;
-  width: 100%;
+.preheader .nav li a {
+  text-decoration: none;
+}
+.header {
+  padding: 48px 0;
+}
+.header .header-title {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 0.4%;
-}
-.revenant_titleblock_title {
   font-family: 'Merriweather', serif;
   text-transform: uppercase;
-  font-size: 500%;
-  color: #5d5d5d;
+  font-size: 80px;
   line-height: 100%;
 }
-.revenant_titleblock_slogan {
-  font-family: 'Sansita', sans-serif;
-  color: #5d5d5d;
-  font-size: 167%;
-  line-height: 100%;
+.header .header-title :nth-child(1) {
+  color: #454545;
 }
-.revenant_slogan_under_mainblock {
-  margin: 7px 200px;
-  padding-bottom: 50px;
+.header .header-title :nth-child(2) {
+  color: #3bbdfb;
+}
+.header .header-slogan {
   text-align: center;
-  color: #5d5d5d;
-  font-size: 15px;
-  font-family: Sylfaen;
-  border-bottom: 2px dotted rgba(79, 47, 92, 0.31);
+  font-family: 'Sansita', sans-serif;
+  font-size: 20px;
+  line-height: 100%;
+  color: #454545;
 }
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
+.navbar {
+  border-top: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  text-align: center;
 }
-nav {
-  width: 100%;
-  background: #fff;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-nav ul {
+.navbar .nav {
+  display: inline-block;
+  margin-bottom: -4px;
   list-style: none;
-  position: relative;
-  float: right;
-  margin-right: 33%;
-  display: inline-table;
 }
-nav ul li {
+.navbar .nav li {
   float: left;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 80px;
+  text-align: center;
 }
-nav ul li:hover {
-  background: rgba(0, 0, 0, 0.15);
+.navbar .nav li:hover {
+  margin-top: -3px;
+  margin-bottom: -3px;
+  border-top: 3px solid #bbb;
+  border-bottom: 3px solid #bbb;
+  color: #3bbdfb;
 }
-nav ul li:hover > ul {
-  display: block;
-}
-nav ul li {
-  float: left;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-nav ul li a {
-  display: block;
-  padding: 30px 20px;
-  color: #222;
-  font-size: .9em;
-  letter-spacing: 1px;
+.navbar .nav li a {
   text-decoration: none;
+}
+.main {
+  border-bottom: 3px solid #ddd;
+  background-size: cover;
+  background-image: url(../img/slideshowFull3.png);
+  background-repeat: no-repeat;
+}
+.main .main-header {
+  margin-left: -4px;
+  padding-top: 120px;
+  padding-bottom: 30px;
+  font-size: 80px;
+  line-height: 100%;
+  font-family: 'Sansita', sans-serif;
   text-transform: uppercase;
 }
-nav ul ul {
-  display: none;
-  background: #fff;
-  position: absolute;
-  top: 100%;
-  box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-nav ul ul li {
-  float: none;
-  position: relative;
-}
-nav ul ul li a {
-  padding: 15px 30px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-nav ul ul ul {
-  position: absolute;
-  left: 100%;
-  top: 0;
-}
-.revenant_navbar {
-  width: 100%;
-  height: 20px;
-  background-color: aqua;
-}
-.revenant_navbar_nav {
-  float: right;
-  background-color: aqua;
-}
-.revenant_navbar_nav_item {
-  padding: 0px 0px 0px 15px;
-  font-family: 'UniSansHeavy', sans-serif;
+.main .main-container {
+  width: 300px;
+  padding-bottom: 130px;
   font-size: 16px;
-  color: white;
-  transition: .5s;
+  line-height: 150%;
+  font-family: 'Sansita', sans-serif;
+}
+.main .main-image {
+  position: absolute;
+  bottom: 0;
+  right: 300px;
+}
+.slogan .container {
+  border-bottom: 2px dashed #ddd;
+}
+.slogan .slogan-content {
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Sansita', sans-serif;
+  font-size: 20px;
 }
