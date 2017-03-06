@@ -1,11 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Sansita');
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-@import url('https://fonts.googleapis.com/css?family=Mada');
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@big_font: 'Merriweather', serif;
-@text_font: 'Sansita', sans-serif;
-@another_font: 'Mada', sans-serif;
-@custom_grey: #5d5d5d;
+@font-face {
+  font-family: Montserrat-Regular; /* Гарнитура шрифта */
+  src: url(../fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+  font-family: ProximaNovaBold; /* Гарнитура шрифта */
+  src: url(../fonts/ProximaNovaBold.otf);
+}
+
+@font-face {
+  font-family: Roboto-Light; /* Гарнитура шрифта */
+  src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Medium; /* Гарнитура шрифта */
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular; /* Гарнитура шрифта */
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Merriweather-Light; /* Гарнитура шрифта */
+  src: url(../fonts/Merriweather-Light.ttf);
+}
+@font-face {
+  font-family: MyriadProRegular; /* Гарнитура шрифта */
+  src: url(../fonts/MyriadProRegular.ttf);
+}
 
 
 * {
@@ -14,6 +39,16 @@
   box-sizing: border-box;
   color: inherit;
   font: inherit;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+html {
+  font: 16px sans-serif;
+}
+
+body {
+  min-width: 1200px;
 }
 
 .clearfix:after {
@@ -24,9 +59,8 @@
 
 .container {
   position: relative;
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  width: 1056px;
 
   &:after {
     content: '';
@@ -36,154 +70,374 @@
 }
 
 
-html {
-  font: 16px sans-serif;
-}
+.masthead {
+  position: relative;
+  height: 660px;
 
-
-.preheader {
-  background-color: #3bbdfb;
-  padding-top: 3px;
-  padding-bottom: 1px;
+  background-image: url(../img/Home_0009s_0001_Layer-14.png);
+  background-size: cover;
 
   color: #fff;
-  font-size: 12px;
 
-  .nav {
-    list-style: none;
-    float: right;
+  &:before {
+    content: '';
 
-    li {
-      display: block;
-      float: left;
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
 
-      padding: 0 10px;
+    background-color: rgba(45, 110, 112, .8);
 
-      line-height: 28px;
-
-      &:not(:last-child) {
-        border-right: 1px solid #eee;
-      }
-
-      a {
-        text-decoration: none;
-      }
-    }
   }
-}
 
+  .header {
+    position: relative;
+    height: 85px;
+    padding: 26px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
 
-.header {
-  padding: 48px 0;
-
-  .header-title {
-    text-align: center;
-    font-family: @big_font;
+    line-height: 32px;
     text-transform: uppercase;
-    font-size: 80px;
-    line-height: 100%;
 
-    :nth-child(1) {
-      color: #454545;
+    .title {
+      float: left;
+      padding-top: 1px;
+      padding-right: 24px;
+
+      font-size: 29px;
+      line-height: 31px;
+      font-family: ProximaNovaBold;
+      display: flex;
+
     }
 
-    :nth-child(2) {
-      color: #3bbdfb;
-    }
-  }
-
-  .header-slogan {
-    text-align: center;
-    font-family: @text_font;
-    font-size: 20px;
-    line-height: 100%;
-    color: #454545;
-  }
-}
-
-
-.navbar {
-  border-top: 3px solid #ddd;
-  border-bottom: 3px solid #ddd;
-
-  text-align: center;
-  
-  .nav {
-    display: inline-block;
-
-    margin-bottom: -4px; // TODO: fix
-
-    list-style: none;
-
-    li {
+    .phone {
       float: left;
 
-      padding: 0 20px;
+      .icon {
+        padding: 3px 7px 3px 26px;
+        margin: 6px 0;
+        float: left;
+        border-left: 1px solid rgba(255, 255, 255, .2);
+      }
+
+      .number {
+        float: left;
+        font-size: 13px;
+        font-family: Montserrat-Regular;
+      }
+    }
+
+    .nav {
+      float: right;
+
+      display: flex;
+
+      font-size: 13px;
+      font-family: Montserrat-Regular;
+
+      li {
+        list-style: none;
+
+        &:not(:last-child) {
+          margin-right: 32px;
+        }
+
+        a {
+          display: block;
+          opacity: .7;
+          transition: .3s;
+
+          &:hover {
+            opacity: 1;
+          }
+
+          &.button {
+            padding: 0 13px;
+            background-color: rgba(255, 255, 255, .35);
+            border-radius: 2px;
+
+            color: #eee;
+          }
+        }
+      }
+    }
+  }
+
+  .headline {
+    position: relative;
+    width: 520px;
+    padding-top: 200px;
+
+    font-size: 38px;
+    font-family: Roboto-Regular;
+
+    .title{
+      margin-bottom: 5px;
+    }
+
+    .content{
+      margin-bottom: 20px;
 
       font-size: 16px;
-      line-height: 80px;
+      line-height: 24px;
+    }
+
+    .button{
+      display: block;
+
+      height: 50px;
+      width: 186px;
+      padding: 17px 0px;
+
+      background-color: rgb(111, 176, 72);
+      border-radius: 2px;
+
+      font-size: 14px;
+      font-family: Montserrat-Regular;
       text-align: center;
+      text-transform: uppercase;
 
-      &:hover {
-        margin-top: -3px;
-        margin-bottom: -3px;
-        border-top: 3px solid #bbb;
-        border-bottom: 3px solid #bbb;
-        color: #3bbdfb;
-      }
+      transition: .3s;
 
-      a {
-        text-decoration: none;
+      &:hover{
+        background-color: darken(rgb(111, 176, 72), 5%);
       }
     }
   }
 }
 
 
-.main {
-  border-bottom: 3px solid #ddd;
-  background-size: cover;
-  background-image: url(../img/slideshowFull3.png);
-  background-repeat: no-repeat;
+.section {
+  font-family: Roboto-Regular;
 
-  .main-header {
-    margin-left: -4px;
-    padding-top: 120px;
-    padding-bottom: 30px;
+  padding: 74px 0;
 
-    font-size: 80px;
-    line-height: 100%;
-    font-family: @text_font;
-    text-transform: uppercase;
+  .title {
+    font-size: 32px;
+    line-height: 2;
+    font-family: Roboto-Light;
+    font-weight: bold;
+    text-align: center;
+    color: #166;
   }
 
-  .main-container {
-    width: 300px;
-    padding-bottom: 130px;
+  .slogan {
+    padding-bottom: 14px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    color: #8aa;
 
-    font-size: 16px;
-    line-height: 150%;
-    font-family: @text_font;
+    &:before {
+      content: '';
+
+      display: block;
+      width: 65px;
+      margin: 0 auto;
+      padding-bottom: 14px;
+      border-top: 1px solid #7b5;
+    }
   }
 
-  .main-image {
+  .maintext{
+    .title{
+      font-size: 32px;
+      line-height: 2;
+      font-family: Roboto-Light;
+      font-weight: bold;
+      text-align: left;
+      color: #166;
+    }
+    .text{
+      font-size: 14px;
+      line-height: 1.7;
+      color: #8aa;
+      text-align: left;
+    }
+  }
+
+  .content {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #8aa;
+  }
+  .tickbox{
+    .icon{
+      float: left;
+      width: 26px;
+      margin-right: 10px;
+      text-align: center;
+    }
+  }
+
+  .columns {
+    display: flex;
+    margin: 0 -15px;
+    padding: 20px 0;
+
+    .column {
+      flex: 1 0 1%;
+      padding: 0 15px;
+
+      .title {
+        font-family: Roboto-Regular;
+        font-size: 16px;
+      }
+
+      .content {
+        font-size: 14px;
+      }
+    }
+
+    &.center {
+      .icon {
+        height: 60px;
+
+        text-align: center;
+      }
+
+      .title {
+        padding-top: 12px;
+        padding-bottom: 6px;
+      }
+
+      .content {
+        text-align: center;
+      }
+    }
+
+    &.left {
+      .icon {
+        float: left;
+        width: 38px;
+        margin-right: 16px;
+
+        text-align: center;
+      }
+
+      .title {
+        padding-bottom: 14px;
+
+        text-align: left;
+      }
+    }
+  }
+
+  .fligel {
+    width: 90px;
+    height: 90px;
+    margin: 7px auto 27px;
+    border-bottom: 1px solid #eee;
+
+    &:before {
+      content: '';
+
+      display: block;
+      width: 0;
+      height: 100%;
+      margin: 0 auto;
+      border-left: 1px solid #eee;
+    }
+  }
+}
+
+.middleblock {
+  height: 666px;
+  padding-top: 56px;
+  padding-bottom: 0;
+  background-color: #eef1ec;
+
+  .container {
+    height: 100%;
+
+    background-image: url(../img/Home_0005s_0000_Hand.png);
+    background-repeat: no-repeat;
+    background-position: -230px bottom;
+  }
+
+  .content {
+    position: relative;
+  }
+
+  .hand {
     position: absolute;
     bottom: 0;
-    right: 300px;
+    left: 0;
   }
+
+  .display {
+    position: absolute;
+    left: 174px;
+    bottom: 120px;
+    display: block;
+  }
+
+  .maintext{
+    margin-top: 120px;
+    margin-left: 520px;
+  }
+  .tickbox{
+    margin-left: 520px;
+    margin-top: 24px;
+
+  }
+}
+.middleblock2{
+  height: 681px;
+  padding: 0;
+
+
+.girl_image{
+
+  width: 400px;
+  height: 400px;
+  float:right;
+  margin-top: 140px;
+
+  //margin-left: 200px;
+  display: block;
+
+}
+  .quotation_box{
+    padding-top: 238px;
+    color: #96b4b2;
+    font-size: 15px;
+    line-height: 1.7;
+  .quotation_text{
+    font-family: MyriadProRegular;
+    font-size: 22px;
+
+    line-height: 1.5;
+  }
+   .quotation_author{
+     font-family: Roboto-Medium;
+     color: #6fb048;
+     padding-top: 71px;
+
+   }
+    .quotarion_post{
+      font-family: Roboto-Regular;
+
+
+    }
+  }
+}
+.mapbox{
+  background-color: #eef1ec;
+  height: 505px;
+  .earth_image {
+    display: block;
+    float: right;
+  }
+    .maintext{
+      padding-top: 76px;
+    }
+
+  }
+.priceplan{
+  height:597px;
 }
 
 
-.slogan {
-  .container {
-    border-bottom: 2px dashed #ddd;
-  }
-
-  .slogan-content {
-    padding: 15px 0;
-    text-align: center;
-
-    font-family: @text_font; 
-    font-size: 20px;
-  }
-}
