@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="147" column="92" lean-forward="false" selection-start-line="147" selection-start-column="92" selection-end-line="147" selection-end-column="92" />
+            <state relative-caret-position="-40">
+              <caret line="143" column="35" lean-forward="true" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -28,21 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/less/style.less">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="439" column="15" lean-forward="false" selection-start-line="439" selection-start-column="15" selection-end-line="439" selection-end-column="15" />
+            <state relative-caret-position="-90">
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="-352">
+              <caret line="454" column="2" lean-forward="false" selection-start-line="454" selection-start-column="2" selection-end-line="454" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -54,6 +54,10 @@
     <findStrings>
       <find>color</find>
       <find>Merriweather Light</find>
+      <find>border</find>
+      <find>button</find>
+      <find>content</find>
+      <find>container</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,8 +70,8 @@
         <option value="$PROJECT_DIR$/../web31/gulpfile.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/../example/Пример/index.html" />
-        <option value="$PROJECT_DIR$/app/less/style.less" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/less/style.less" />
       </list>
     </option>
   </component>
@@ -89,8 +93,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="251" />
-    <option name="y" value="289" />
+    <option name="x" value="463" />
+    <option name="y" value="388" />
     <option name="width" value="1169" />
     <option name="height" value="644" />
   </component>
@@ -244,15 +248,15 @@
       <workItem from="1488393325204" duration="857000" />
       <workItem from="1488713749862" duration="38692000" />
       <workItem from="1488788270481" duration="7376000" />
-      <workItem from="1488829789167" duration="8272000" />
+      <workItem from="1488829789167" duration="13540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80763000" />
+    <option name="totallyTimeSpent" value="86031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="251" y="289" width="1169" height="644" extended-state="0" />
+    <frame x="463" y="388" width="1169" height="644" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -538,9 +542,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="143" column="35" lean-forward="true" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="-90">
           <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding />
         </state>
@@ -548,20 +563,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="439" column="15" lean-forward="false" selection-start-line="439" selection-start-column="15" selection-end-line="439" selection-end-column="15" />
+        <state relative-caret-position="-352">
+          <caret line="454" column="2" lean-forward="false" selection-start-line="454" selection-start-column="2" selection-end-line="454" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="147" column="92" lean-forward="false" selection-start-line="147" selection-start-column="92" selection-end-line="147" selection-end-column="92" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
