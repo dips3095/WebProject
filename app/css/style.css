@@ -459,5 +459,39 @@ body {
   display: block;
   height: inherit;
   width: inherit;
-  background-color: rgba(45, 110, 112, 0.8);
+  background-color: rgba(237, 241, 236, 0.85);
+}
+.downloadblock .button {
+  font-size: 13px;
+  font-family: Montserrat-Regular;
+  color: #eee;
+  display: block;
+  height: 42px;
+  width: 287px;
+  background-color: #6fb048;
+  border-radius: 2px;
+  text-align: center;
+  padding: 13px 0;
+  text-transform: uppercase;
+  margin: 66px auto;
+  transition: .3s;
+  float: right;
+}
+.downloadblock .button:hover {
+  background-color: #649e41;
+}
+.downloadblock .section {
+  padding-top: 50px;
+  float: left;
+}
+.downloadblock .section .title {
+  font-family: Roboto-Light;
+  font-size: 28px;
+  color: #006666;
+  margin-bottom: -10px;
+  font-weight: bold;
+}
+.downloadblock .section .title .text {
+  font-size: 15px;
+  font-weight: bold;
 }
