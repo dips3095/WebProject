@@ -26,16 +26,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="272" column="24" lean-forward="false" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="24" />
+              <caret line="272" column="80" lean-forward="false" selection-start-line="272" selection-start-column="80" selection-end-line="272" selection-end-column="80" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="585" column="5" lean-forward="false" selection-start-line="585" selection-start-column="5" selection-end-line="585" selection-end-column="5" />
+            <state relative-caret-position="1176">
+              <caret line="282" column="20" lean-forward="true" selection-start-line="282" selection-start-column="20" selection-end-line="282" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -88,8 +87,8 @@
         <option value="$PROJECT_DIR$/../web31/gulpfile.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/../example/Пример/index.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/less/style.less" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -352,12 +351,12 @@
       <workItem from="1488901784720" duration="781000" />
       <workItem from="1488902593235" duration="796000" />
       <workItem from="1488907447202" duration="4000" />
-      <workItem from="1489173670046" duration="10319000" />
+      <workItem from="1489173670046" duration="10491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98603000" />
+    <option name="totallyTimeSpent" value="98775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,7 +432,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -462,7 +460,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -491,7 +488,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -520,7 +516,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,7 +544,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -578,7 +572,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -621,7 +614,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -642,7 +634,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -663,7 +654,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -684,7 +674,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -705,7 +694,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -741,7 +729,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -818,24 +805,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="282" column="20" lean-forward="true" selection-start-line="282" selection-start-column="20" selection-end-line="282" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="272" column="24" lean-forward="false" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="24" />
+          <caret line="272" column="80" lean-forward="false" selection-start-line="272" selection-start-column="80" selection-end-line="272" selection-end-column="80" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#5;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#5;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="585" column="5" lean-forward="false" selection-start-line="585" selection-start-column="5" selection-end-line="585" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
