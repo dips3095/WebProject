@@ -264,11 +264,17 @@ body {
     color: #8aa;
   }
   .tickbox{
+    float: left;
     .icon{
       float: left;
       width: 26px;
       margin-right: 10px;
       text-align: center;
+    }
+    .text{
+      font-size: 14px;
+      line-height: 1.7;
+      color: #8aa;
     }
   }
 
@@ -452,7 +458,7 @@ body {
   width: 255px;
   height: 360px;
   border: 1px solid #c1d3d2;
-  
+
 
   text-align: center;
   padding: 30px 40px;
@@ -511,4 +517,54 @@ body {
 }
 
 
+.manytickboxes{
+  font-family: MyriadProRegular;
+  font-size: 14px;
+  text-align: left;
+ padding-top: 0px;
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
+.optionsectiontile{
+  padding-bottom: 0px;
+}
+.helpbar{
+  margin-top: -102px;
+.title{
+  color: #6fb048;
+}
+  .emailadress{
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    color: #116666;
+  }
+  .titleicon{
+    text-align: center;
+  }
+}
+.downloadblock{
+  height: 200px;
+  width: 100%;
+  background-image: url(../img/Home_0009s_0001_Layer-14.png);
+  background-size: cover;
+  margin:50px auto;
+  &:before {
+    content: '';
+
+    position: absolute;
+    display: block;
+    height: inherit;
+    width: inherit;
+
+    background-color: rgba(45, 110, 112, .8);
+
+  }
+}
 

@@ -212,11 +212,19 @@ body {
   line-height: 1.7;
   color: #8aa;
 }
+.section .tickbox {
+  float: left;
+}
 .section .tickbox .icon {
   float: left;
   width: 26px;
   margin-right: 10px;
   text-align: center;
+}
+.section .tickbox .text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #8aa;
 }
 .section .columns {
   display: flex;
@@ -407,4 +415,49 @@ body {
 }
 .advblock .button:hover {
   background-color: #6fb048;
+}
+.manytickboxes {
+  font-family: MyriadProRegular;
+  font-size: 14px;
+  text-align: left;
+  padding-top: 0px;
+}
+.manytickboxes .column {
+  display: flex;
+  flex-direction: column;
+}
+.optionsectiontile {
+  padding-bottom: 0px;
+}
+.helpbar {
+  margin-top: -102px;
+}
+.helpbar .title {
+  color: #6fb048;
+}
+.helpbar .emailadress {
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+  color: #116666;
+}
+.helpbar .titleicon {
+  text-align: center;
+}
+.downloadblock {
+  height: 200px;
+  width: 100%;
+  background-image: url(../img/Home_0009s_0001_Layer-14.png);
+  background-size: cover;
+  margin: 50px auto;
+}
+.downloadblock:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: inherit;
+  width: inherit;
+  background-color: rgba(45, 110, 112, 0.8);
 }
