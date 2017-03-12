@@ -1,3 +1,3 @@
 # WebProject
 WebSite for MMCS course
-![alt tag](WebProject/Home.png)
+![alt tag](https://github.com/dips3095/WebProject/blob/master/Home.png)
