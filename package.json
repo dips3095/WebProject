@@ -19,6 +19,10 @@
     "gulp-less": "^3.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "imagemin-pngquant": "^5.0.0"
+    "imagemin-pngquant": "^5.0.0",
+    "node-normalize-scss": "^1.4.0"
+  },
+  "dependencies": {
+    "normalize.css": "^6.0.0"
   }
 }

@@ -46,9 +46,6 @@
 html {
   font: 16px sans-serif;
 }
-body {
-  min-width: 1200px;
-}
 .clearfix:after {
   content: '';
   display: table;
@@ -66,7 +63,7 @@ body {
 }
 .masthead {
   position: relative;
-  height: 660px;
+  min-height: 660px;
   background-image: url(../img/Home_0009s_0001_Layer-14.png);
   background-size: cover;
   color: #fff;
@@ -81,7 +78,7 @@ body {
 }
 .masthead .header {
   position: relative;
-  height: 85px;
+  min-height: 85px;
   padding: 26px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   line-height: 32px;
@@ -161,7 +158,7 @@ body {
 }
 .masthead .headline .button {
   display: block;
-  height: 50px;
+  min-height: 50px;
   width: 186px;
   padding: 17px 0px;
   background-color: #6fb048;
@@ -260,7 +257,7 @@ body {
   font-size: 14px;
 }
 .section .columns.center .icon {
-  height: 60px;
+  min-height: 60px;
   text-align: center;
 }
 .section .columns.center .title {
@@ -295,7 +292,7 @@ body {
   border-left: 1px solid #eee;
 }
 .middleblock {
-  height: 666px;
+  min-height: 666px;
   padding-top: 56px;
   padding-bottom: 0;
   background-color: #eef1ec;
@@ -305,6 +302,7 @@ body {
   background-image: url(../img/Home_0005s_0000_Hand.png);
   background-repeat: no-repeat;
   background-position: -230px bottom;
+  padding-bottom: 56px;
 }
 .middleblock .content {
   position: relative;
@@ -329,12 +327,10 @@ body {
   margin-top: 24px;
 }
 .middleblock2 {
-  height: 681px;
+  min-height: 681px;
   padding: 0;
 }
 .middleblock2 .girl_image {
-  width: 400px;
-  height: 400px;
   float: right;
   margin-top: 140px;
   display: block;
@@ -360,7 +356,7 @@ body {
 }
 .mapbox {
   background-color: #eef1ec;
-  height: 505px;
+  min-height: 505px;
 }
 .mapbox .earth_image {
   display: block;
@@ -370,7 +366,7 @@ body {
   padding-top: 76px;
 }
 .priceplan {
-  height: 597px;
+  min-height: 597px;
 }
 .priceplan .advoptions {
   display: -webkit-box;
@@ -387,7 +383,7 @@ body {
 }
 .advblock {
   width: 255px;
-  height: 360px;
+  min-height: 360px;
   border: 1px solid #c1d3d2;
   text-align: center;
   padding: 30px 40px;
@@ -426,7 +422,7 @@ body {
   font-family: Montserrat-Regular;
   color: #eee;
   display: block;
-  height: 42px;
+  min-height: 42px;
   width: 140px;
   background-color: #83a7a5;
   -webkit-border-radius: 2px;
@@ -479,17 +475,18 @@ body {
   text-align: center;
 }
 .downloadblock {
-  height: 200px;
+  min-height: 200px;
   width: 100%;
   background-image: url(../img/Home_0009s_0001_Layer-14.png);
   background-size: cover;
   margin-bottom: 100px;
+  position: relative;
 }
 .downloadblock:before {
   content: '';
   position: absolute;
   display: block;
-  height: inherit;
+  min-height: 100%;
   width: inherit;
   background-color: rgba(237, 241, 236, 0.85);
 }
@@ -498,7 +495,7 @@ body {
   font-family: Montserrat-Regular;
   color: #eee;
   display: block;
-  height: 42px;
+  min-height: 42px;
   width: 287px;
   background-color: #6fb048;
   -webkit-border-radius: 2px;
@@ -602,7 +599,7 @@ body {
   color: #83a7a5;
 }
 .emailbox button {
-  height: 36px;
+  min-height: 36px;
   padding: 9px;
   outline: 0;
   margin-left: auto;
@@ -635,25 +632,181 @@ body {
   float: right;
 }
 .bottominfo .social_icons .icon {
-  height: 30px;
+  min-height: 30px;
   text-align: center;
   display: block;
   width: 30px;
   margin-left: 6px;
   padding-top: 6px;
-  background-color: #55acee;
   -webkit-border-radius: 50%;
           border-radius: 50%;
 }
 .bottominfo .social_icons .facebook {
   background-color: #3b5998;
 }
+.bottominfo .social_icons .facebook:hover {
+  background-color: #0646cd;
+}
 .bottominfo .social_icons .instagramm {
   background-color: #3f729b;
+}
+.bottominfo .social_icons .instagramm:hover {
+  background-color: #0878d2;
 }
 .bottominfo .social_icons .basketball {
   background-color: #ea4c89;
 }
+.bottominfo .social_icons .basketball:hover {
+  background-color: #ff3784;
+}
 .bottominfo .social_icons .cathead {
   background-color: #333333;
+}
+.bottominfo .social_icons .cathead:hover {
+  background-color: #4d1919;
+}
+.bottominfo .social_icons .twitter {
+  background-color: #55acee;
+}
+.bottominfo .social_icons .twitter:hover {
+  background-color: #44aeff;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+  .masthead {
+    min-height: 500px;
+    background-image: url(../img/Home_0009s_0001_Layer-14.png);
+    background-size: cover;
+    color: #fff;
+  }
+  .masthead .header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+  }
+  .masthead .header .title {
+    font-size: 13px;
+    padding-right: 11px;
+  }
+  .masthead .header .phone {
+    float: left;
+  }
+  .masthead .header .phone .icon {
+    padding: 3px 7px 3px 5px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .masthead .header .phone .number {
+    float: left;
+    font-size: 13px;
+    font-family: Montserrat-Regular;
+  }
+  .masthead .header .nav {
+    float: left;
+    font-size: 7px;
+    font-family: Montserrat-Regular;
+  }
+  .masthead .header .nav li {
+    list-style: none;
+  }
+  .masthead .header .nav li:not(:last-child) {
+    margin-right: 18px;
+  }
+  .masthead .headline {
+    position: relative;
+    width: 100%;
+    padding-top: 123px;
+    font-size: 25px;
+    font-family: Roboto-Regular;
+  }
+  .masthead .headline .title {
+    margin-bottom: 5px;
+  }
+  .masthead .headline .content {
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .section {
+    font-family: Roboto-Regular;
+    padding: 0px;
+  }
+  .section .columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 0;
+    padding: 0 0;
+  }
+  .section .columns .column {
+    padding: 0 15px;
+  }
+  .middleblock {
+    padding-top: 0;
+  }
+  .middleblock .container {
+    background-position: -302px bottom;
+    padding-bottom: 506px;
+  }
+  .middleblock .display {
+    left: 102px;
+  }
+  .middleblock .maintext {
+    margin: 0;
+  }
+  .middleblock .tickbox {
+    margin: 0;
+  }
+  .middleblock .section {
+    padding: 0;
+  }
+  .middleblock2 {
+    min-height: 600px;
+  }
+  .middleblock2 .girl_image {
+    float: none;
+    margin-top: 5%;
+  }
+  .middleblock2 .girl_image img {
+    display: block;
+    width: 75%;
+  }
+  .middleblock2 .quotation_box {
+    padding-top: 15%;
+  }
+  .middleblock2 .quotation_box .quotation_author {
+    padding-top: 9%;
+  }
+  .mapbox .earth_image img {
+    display: block;
+    width: 100%;
+  }
+  .advoptions {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .helpbar {
+    margin: 0;
+  }
+  .downloadblock {
+    margin-bottom: 6%;
+  }
+  .finalsection .info_columns {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .downloadblock .button {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .bottominfo .copyright {
+    display: none;
+  }
 }
