@@ -326,6 +326,9 @@ html {
   margin-left: 520px;
   margin-top: 24px;
 }
+.middleblock .section {
+  padding: 0;
+}
 .middleblock2 {
   min-height: 681px;
   padding: 0;
