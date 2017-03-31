@@ -46,6 +46,11 @@
 html {
   font: 16px sans-serif;
 }
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
 .clearfix:after {
   content: '';
   display: table;
@@ -765,7 +770,7 @@ html {
     padding: 0;
   }
   .middleblock2 {
-    min-height: 600px;
+    min-height: 100%;
   }
   .middleblock2 .girl_image {
     float: none;
@@ -773,7 +778,7 @@ html {
   }
   .middleblock2 .girl_image img {
     display: block;
-    width: 75%;
+    max-width: 60%;
   }
   .middleblock2 .quotation_box {
     padding-top: 15%;
@@ -784,6 +789,28 @@ html {
   .mapbox .earth_image img {
     display: block;
     width: 100%;
+  }
+  .priceplan {
+    min-height: 100%;
+  }
+  .priceplan .advblock {
+    width: 31%;
+    min-height: 100%;
+    padding: 0;
+  }
+  .priceplan .advblock .price {
+    font-size: 32px;
+  }
+  .priceplan .advblock .period {
+    font-size: 10px;
+  }
+  .priceplan .advblock .info {
+    font-size: 10px;
+  }
+  .priceplan .advblock .button {
+    font-size: 9px;
+    min-height: 42px;
+    max-width: 83px;
   }
   .advoptions {
     -webkit-flex-wrap: wrap;

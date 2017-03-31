@@ -48,10 +48,12 @@ html {
 
 }
 
-body {
-  //min-width: 1200px;
-}
 
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
 .clearfix:after {
   content: '';
   display: table;
@@ -883,14 +885,14 @@ body {
     }
   }
   .middleblock2{
-    min-height: 600px;
+    min-height: 100%;
     .girl_image{
       float: none;
       margin-top: 5%;
 
       img{
         display: block;
-        width: 75%;
+        max-width: 60%;
 
       }
 
@@ -911,6 +913,30 @@ body {
 
   }
 }
+.priceplan {
+  min-height: 100%;
+  .advblock {
+    width: 31%;
+    min-height: 100%;
+    padding: 0;
+
+    .price {
+      font-size: 32px;
+    }
+    .period {
+      font-size: 10px;
+    }
+    .info {
+    font-size: 10px;
+    }
+    .button {
+      font-size: 9px;
+      min-height: 42px;
+      max-width: 83px;
+    }
+  }
+}
+
 .advoptions{
 //flex-direction: column;
   flex-wrap: wrap;
