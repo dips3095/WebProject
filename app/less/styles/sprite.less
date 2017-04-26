@@ -1,0 +1,143 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@basketball-name: 'basketball';
+@basketball-x: 18px;
+@basketball-y: 0px;
+@basketball-offset-x: -18px;
+@basketball-offset-y: 0px;
+@basketball-width: 16px;
+@basketball-height: 16px;
+@basketball-total-width: 118px;
+@basketball-total-height: 16px;
+@basketball-image: '../img/sprite.png';
+@basketball: 18px 0px -18px 0px 16px 16px 118px 16px '../img/sprite.png' 'basketball';
+@cathead-name: 'cathead';
+@cathead-x: 70px;
+@cathead-y: 0px;
+@cathead-offset-x: -70px;
+@cathead-offset-y: 0px;
+@cathead-width: 18px;
+@cathead-height: 16px;
+@cathead-total-width: 118px;
+@cathead-total-height: 16px;
+@cathead-image: '../img/sprite.png';
+@cathead: 70px 0px -70px 0px 18px 16px 118px 16px '../img/sprite.png' 'cathead';
+@facebook-name: 'facebook';
+@facebook-x: 0px;
+@facebook-y: 0px;
+@facebook-offset-x: 0px;
+@facebook-offset-y: 0px;
+@facebook-width: 8px;
+@facebook-height: 16px;
+@facebook-total-width: 118px;
+@facebook-total-height: 16px;
+@facebook-image: '../img/sprite.png';
+@facebook: 0px 0px 0px 0px 8px 16px 118px 16px '../img/sprite.png' 'facebook';
+@instagramm-name: 'instagramm';
+@instagramm-x: 44px;
+@instagramm-y: 0px;
+@instagramm-offset-x: -44px;
+@instagramm-offset-y: 0px;
+@instagramm-width: 16px;
+@instagramm-height: 16px;
+@instagramm-total-width: 118px;
+@instagramm-total-height: 16px;
+@instagramm-image: '../img/sprite.png';
+@instagramm: 44px 0px -44px 0px 16px 16px 118px 16px '../img/sprite.png' 'instagramm';
+@twitter-name: 'twitter';
+@twitter-x: 98px;
+@twitter-y: 0px;
+@twitter-offset-x: -98px;
+@twitter-offset-y: 0px;
+@twitter-width: 20px;
+@twitter-height: 16px;
+@twitter-total-width: 118px;
+@twitter-total-height: 16px;
+@twitter-image: '../img/sprite.png';
+@twitter: 98px 0px -98px 0px 20px 16px 118px 16px '../img/sprite.png' 'twitter';
+@spritesheet-width: 118px;
+@spritesheet-height: 16px;
+@spritesheet-image: '../img/sprite.png';
+@spritesheet-sprites: @basketball @cathead @facebook @instagramm @twitter;
+@spritesheet: 118px 16px '../img/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
