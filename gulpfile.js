@@ -13,14 +13,15 @@ var gulp      = require('gulp'), // Подключаем Gulp
     fontmin = require('gulp-fontmin'),
     uglify = require('gulp-uglify'),
     pump = require('pump'),
+    eslint = require('gulp-eslint'),
     autoprefixer = require('gulp-autoprefixer');// Подключаем библиотеку для автоматического добавления префиксов
 
 gulp.task('babel', () => {
-    return gulp.src('app/js/*.js')
+    return gulp.src('app/js/es2015/*.js')
         .pipe(babel({
             presets: ['es2015']
         }))
-        .pipe(gulp.dest('app/js/readyjs'));
+        .pipe(gulp.dest('app/js'));
 });
 
 gulp.task('fonts', function () {
@@ -31,9 +32,9 @@ gulp.task('fonts', function () {
         }))
         .pipe(gulp.dest('dist/fonts'));
 });
-gulp.task('js-min', function (cb) {
+gulp.task('js-min',['babel'], function (cb) {
     pump([
-            gulp.src('app/js/readyjs/*.js'),
+            gulp.src('app/js/*.js'),
             uglify(),
             gulp.dest('dist/js')
         ],
@@ -48,7 +49,22 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
         notify: false // Отключаем уведомления
     });
 });
-
+gulp.task('lint', () => {
+    // ESLint ignores files with "node_modules" paths.
+    // So, it's best to have gulp ignore the directory as well.
+    // Also, Be sure to return the stream from the task;
+    // Otherwise, the task may end before the stream has finished.
+    return gulp.src('app/js/*.js')
+    // eslint() attaches the lint output to the "eslint" property
+    // of the file object so it can be used by other modules.
+        .pipe(eslint())
+        // eslint.format() outputs the lint results to the console.
+        // Alternatively use eslint.formatEach() (see Docs).
+        .pipe(eslint.format())
+        // To have the process exit with an error code (1) on
+        // lint error, return the stream and pipe to failAfterError last.
+        .pipe(eslint.failAfterError());
+});
 
 gulp.task('less',['concat-less'], function(){ // Создаем таск less
     return gulp.src('app/less/res.less') // Берем источник
@@ -66,7 +82,7 @@ gulp.task('css-libs', ['less'], function() {
 gulp.task('watch', ['browser-sync','css-libs','babel'], function() {
     gulp.watch('app/less/**/*.less',['css-libs'],browserSync.reload);//    Наблюдение за less файлами в папке less
     gulp.watch('app/*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
-    gulp.watch('app/js/*.js',['babel'], browserSync.reload); // Наблюдение за JS файлами в папке js
+    gulp.watch('app/js/babel/*.js',['babel'], browserSync.reload); // Наблюдение за JS файлами в папке js
 });
 gulp.task('sprite', function() {
     var spriteData =
@@ -98,7 +114,7 @@ gulp.task('build', ['clean','sprite','img','css-libs','fonts','js-min'], functio
         .pipe(gulp.dest('dist/css'))
 
 
-    var buildHtml = gulp.src('app/*.html') // Переносим HTML в продакшен
+    var buildHtml = gulp.src('app/*.html')
         .pipe(gulp.dest('dist'));
 
 });

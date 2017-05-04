@@ -1,8 +1,10 @@
-let burger = document.getElementById("burger-button");
-let area = document.getElementById("area");
+"use strict";
 
-burger.addEventListener("click", (e) => {
+var burger = document.getElementById("burger-button");
+var area = document.getElementById("area");
+
+burger.addEventListener("click", function (e) {
     e.preventDefault();
-burger.classList.toggle("open");
-area.classList.toggle("open");
+    burger.classList.toggle("open");
+    area.classList.toggle("open");
 });
