@@ -7,18 +7,17 @@ const imgArr = [
     'url(img/background4.jpg)'
 ]
 const slideArea = document.querySelector('.masthead')
-const delay = 4000
-let start=1
+const delay = 3500
+let start = 0
 
 
-
-function Show() {
-    start=(start+1)%imgArr.length
-    slideArea.style.backgroundImage=imgArr[start]
-    slideArea.style.transitionDuration='2s'
+let Show = () => {
+    start = (start + 1) % imgArr.length
+    slideArea.style.backgroundImage = imgArr[start]
+    slideArea.style.transitionDuration = '2.5s'
 
 }
-setInterval(Show,delay)
+setInterval(Show, delay)
 
 
 

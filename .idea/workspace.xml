@@ -2,35 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5bd95a-932d-44e1-bdb1-6bcab8e8f648" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Merriweather-Light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Merriweather-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Merriweather-Light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Merriweather-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadProRegular.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadProRegular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadProRegular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadProRegular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/ProximaNovaBold.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/ProximaNovaBold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/ProximaNovaBold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/ProximaNovaBold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.woff" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sprite.png" afterPath="$PROJECT_DIR$/app/img/sprite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Merriweather-Light.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Merriweather-Light.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/MyriadProRegular.ttf" afterPath="$PROJECT_DIR$/dist/fonts/MyriadProRegular.ttf" />
@@ -38,14 +9,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Light.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/sprite.png" afterPath="$PROJECT_DIR$/dist/img/sprite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/res.css" afterPath="$PROJECT_DIR$/app/css/res.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/es2015/burger.js" afterPath="$PROJECT_DIR$/app/js/es2015/burger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/es2015/slider.js" afterPath="$PROJECT_DIR$/app/js/es2015/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/slider.js" afterPath="$PROJECT_DIR$/app/js/slider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/res.less" afterPath="$PROJECT_DIR$/app/less/res.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/styles/astyle.less" afterPath="$PROJECT_DIR$/app/less/styles/astyle.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/styles/sprite.less" afterPath="$PROJECT_DIR$/app/less/styles/sprite.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/res.css" afterPath="$PROJECT_DIR$/dist/css/res.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/slider.js" afterPath="$PROJECT_DIR$/dist/js/slider.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,30 +44,48 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="359" column="0" lean-forward="false" selection-start-line="359" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="341" column="33" lean-forward="false" selection-start-line="341" selection-start-column="33" selection-end-line="341" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="astyle.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="astyle.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/less/styles/astyle.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="750" column="44" lean-forward="false" selection-start-line="750" selection-start-column="44" selection-end-line="750" selection-end-column="44" />
-              <folding>
-                <element signature="e#1407#3660#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="191">
+              <caret line="826" column="23" lean-forward="false" selection-start-line="826" selection-start-column="23" selection-end-line="826" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+            <state relative-caret-position="153">
+              <caret line="113" column="33" lean-forward="false" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/es2015/slider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,8 +114,8 @@
       <file leaf-file-name="slider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -166,6 +154,7 @@
       <find>burger</find>
       <find>down</find>
       <find>hover</find>
+      <find>emailbox</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,12 +170,12 @@
         <option value="$PROJECT_DIR$/app/less/styles/style.less" />
         <option value="$PROJECT_DIR$/app/less/res.less" />
         <option value="$PROJECT_DIR$/app/js/burger.js" />
-        <option value="$PROJECT_DIR$/app/js/es2015/burger.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/js/slider.js" />
+        <option value="$PROJECT_DIR$/app/js/es2015/burger.js" />
         <option value="$PROJECT_DIR$/app/js/es2015/slider.js" />
         <option value="$PROJECT_DIR$/app/less/styles/astyle.less" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -209,6 +198,9 @@
           </GulpTaskState>
           <GulpTaskState>
             <task-name>fonts</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>cleanfonts</task-name>
           </GulpTaskState>
           <GulpTaskState>
             <dependencies>
@@ -259,6 +251,7 @@
               <dependency value="css-libs" />
               <dependency value="fonts" />
               <dependency value="js-min" />
+              <dependency value="cleanfonts" />
             </dependencies>
             <task-name>build</task-name>
           </GulpTaskState>
@@ -320,6 +313,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -402,8 +397,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -543,10 +536,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Gulp.js.build" />
-        <item index="1" class="java.lang.String" itemvalue="Gulp.js.fonts" />
-        <item index="2" class="java.lang.String" itemvalue="Gulp.js.sprite" />
-        <item index="3" class="java.lang.String" itemvalue="Gulp.js.default" />
-        <item index="4" class="java.lang.String" itemvalue="Gulp.js.babel" />
+        <item index="1" class="java.lang.String" itemvalue="Gulp.js.babel" />
+        <item index="2" class="java.lang.String" itemvalue="Gulp.js.default" />
+        <item index="3" class="java.lang.String" itemvalue="Gulp.js.fonts" />
+        <item index="4" class="java.lang.String" itemvalue="Gulp.js.sprite" />
       </list>
     </recent_temporary>
   </component>
@@ -581,12 +574,13 @@
       <workItem from="1493391949662" duration="1060000" />
       <workItem from="1493909664849" duration="8920000" />
       <workItem from="1493933711263" duration="4117000" />
-      <workItem from="1493971620204" duration="2668000" />
+      <workItem from="1493971620204" duration="4514000" />
+      <workItem from="1493980733642" duration="3516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193606000" />
+    <option name="totallyTimeSpent" value="198968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,13 +595,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.42424244" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12083333" sideWeight="0.42424244" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.57575756" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19767442" sideWeight="0.52760416" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19767442" sideWeight="0.47239584" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19767442" sideWeight="0.47239584" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -772,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/isolated-man.png" />
     <entry file="file://$PROJECT_DIR$/../web31/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -856,23 +843,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/es2015/slider.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/es2015/burger.js">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="113" column="33" lean-forward="false" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -885,28 +873,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/es2015/burger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/es2015/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="359" column="0" lean-forward="false" selection-start-line="359" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
+        <state relative-caret-position="280">
+          <caret line="341" column="33" lean-forward="false" selection-start-line="341" selection-start-column="33" selection-end-line="341" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/less/styles/astyle.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="750" column="44" lean-forward="false" selection-start-line="750" selection-start-column="44" selection-end-line="750" selection-end-column="44" />
-          <folding>
-            <element signature="e#1407#3660#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+        <state relative-caret-position="191">
+          <caret line="826" column="23" lean-forward="false" selection-start-line="826" selection-start-column="23" selection-end-line="826" selection-end-column="23" />
           <folding />
         </state>
       </provider>
