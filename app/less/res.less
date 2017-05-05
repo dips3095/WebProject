@@ -317,7 +317,7 @@ a {
       width: 186px;
       padding: 17px 0px;
 
-      background-color: rgb(111, 176, 72);
+      background-color: #3EB23C;
       border-radius: 2px;
 
       font-size: 14px;
@@ -328,7 +328,7 @@ a {
       transition: .3s;
 
       &:hover {
-        background-color: darken(rgb(111, 176, 72), 5%);
+        background-color: saturate(#3EB23C, 20%);
       }
     }
   }
@@ -394,7 +394,7 @@ a {
       width: 65px;
       margin: 0 auto;
       padding-bottom: 14px;
-      border-top: 1px solid #7b5;
+      border-top: 1px solid #3EB23C;
     }
   }
 
@@ -581,7 +581,7 @@ a {
     }
     .quotation_author {
       font-family: Roboto-Medium;
-      color: #6fb048;
+      color: #3EB23C;
       padding-top: 71px;
 
     }
@@ -629,7 +629,7 @@ a {
   .title {
     font-size: 15px;
     font-family: Roboto-Medium;
-    color: #6fb048;
+    color: #3EB23C;
     font-weight: bold;
     margin: 0 auto;
     text-transform: uppercase;
@@ -674,7 +674,7 @@ a {
     transition: .3s;
 
     &:hover {
-      background-color: #6fb048;
+      background-color: saturate(#3EB23C,20%);
     }
   }
 }
@@ -698,7 +698,7 @@ a {
 .helpbar {
   margin-top: -152px;
   .title {
-    color: #6fb048;
+    color: #3EB23C;
   }
   .emailadress {
     font-family: Roboto-Regular;
@@ -738,7 +738,7 @@ a {
     display: block;
     min-height: 42px;
     width: 287px;
-    background-color: rgb(111, 176, 72);
+    background-color: #3EB23C;
     border-radius: 2px;
     text-align: center;
     padding: 13px 0;
@@ -748,7 +748,7 @@ a {
     float: right;
 
     &:hover {
-      background-color: darken(rgb(111, 176, 72), 5%);
+      background-color: saturate(#3EB23C, 20%);
     }
   }
   .section {
@@ -883,45 +883,46 @@ a {
     }
     .facebook {
       background-color: #3b5998;
-      background-image: url(../img/icons/facebook.png);
+      background-image: url(../img/sprite.png);
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: 11px;
+
       &:hover {
         background-color: saturate(#3b5998, 50%);
       }
     }
     .instagramm {
       background-color: #3f729b;
-      background-image: url(../img/icons/instagramm.png);
+      background-image: url(../img/sprite.png);
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: -57px;
       &:hover {
         background-color: saturate(#3f729b, 50%);
       }
     }
     .basketball {
       background-color: #ea4c89;
-      background-image: url(../img/icons/basketball.png);
+      background-image: url(../img/sprite.png);
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: -21px;
       &:hover {
         background-color: saturate(#ea4c89, 50%);
       }
     }
     .cathead {
       background-color: #333333;
-      background-image: url(../img/icons/cathead.png);
+      background-image: url(../img/sprite.png);
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: -94px;
       &:hover {
         background-color: saturate(#333333, 50%);
       }
     }
     .twitter {
       background-color: #55acee;
-      background-image: url(../img/icons/twitter.png);
+      background-image: url(../img/sprite.png);
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: -132px;
       &:hover {
         background-color: saturate(#55acee, 90%);
       }
@@ -1174,27 +1175,27 @@ At the bottom of this section, we provide information about the spritesheet itse
 @spritesheet: width height image @spritesheet-sprites;
 */
 @basketball-name: 'basketball';
-@basketball-x: 18px;
+@basketball-x: 28px;
 @basketball-y: 0px;
-@basketball-offset-x: -18px;
+@basketball-offset-x: -28px;
 @basketball-offset-y: 0px;
 @basketball-width: 16px;
 @basketball-height: 16px;
-@basketball-total-width: 118px;
+@basketball-total-width: 158px;
 @basketball-total-height: 16px;
 @basketball-image: '../img/sprite.png';
-@basketball: 18px 0px -18px 0px 16px 16px 118px 16px '../img/sprite.png' 'basketball';
+@basketball: 28px 0px -28px 0px 16px 16px 158px 16px '../img/sprite.png' 'basketball';
 @cathead-name: 'cathead';
-@cathead-x: 70px;
+@cathead-x: 100px;
 @cathead-y: 0px;
-@cathead-offset-x: -70px;
+@cathead-offset-x: -100px;
 @cathead-offset-y: 0px;
 @cathead-width: 18px;
 @cathead-height: 16px;
-@cathead-total-width: 118px;
+@cathead-total-width: 158px;
 @cathead-total-height: 16px;
 @cathead-image: '../img/sprite.png';
-@cathead: 70px 0px -70px 0px 18px 16px 118px 16px '../img/sprite.png' 'cathead';
+@cathead: 100px 0px -100px 0px 18px 16px 158px 16px '../img/sprite.png' 'cathead';
 @facebook-name: 'facebook';
 @facebook-x: 0px;
 @facebook-y: 0px;
@@ -1202,37 +1203,37 @@ At the bottom of this section, we provide information about the spritesheet itse
 @facebook-offset-y: 0px;
 @facebook-width: 8px;
 @facebook-height: 16px;
-@facebook-total-width: 118px;
+@facebook-total-width: 158px;
 @facebook-total-height: 16px;
 @facebook-image: '../img/sprite.png';
-@facebook: 0px 0px 0px 0px 8px 16px 118px 16px '../img/sprite.png' 'facebook';
+@facebook: 0px 0px 0px 0px 8px 16px 158px 16px '../img/sprite.png' 'facebook';
 @instagramm-name: 'instagramm';
-@instagramm-x: 44px;
+@instagramm-x: 64px;
 @instagramm-y: 0px;
-@instagramm-offset-x: -44px;
+@instagramm-offset-x: -64px;
 @instagramm-offset-y: 0px;
 @instagramm-width: 16px;
 @instagramm-height: 16px;
-@instagramm-total-width: 118px;
+@instagramm-total-width: 158px;
 @instagramm-total-height: 16px;
 @instagramm-image: '../img/sprite.png';
-@instagramm: 44px 0px -44px 0px 16px 16px 118px 16px '../img/sprite.png' 'instagramm';
+@instagramm: 64px 0px -64px 0px 16px 16px 158px 16px '../img/sprite.png' 'instagramm';
 @twitter-name: 'twitter';
-@twitter-x: 98px;
+@twitter-x: 138px;
 @twitter-y: 0px;
-@twitter-offset-x: -98px;
+@twitter-offset-x: -138px;
 @twitter-offset-y: 0px;
 @twitter-width: 20px;
 @twitter-height: 16px;
-@twitter-total-width: 118px;
+@twitter-total-width: 158px;
 @twitter-total-height: 16px;
 @twitter-image: '../img/sprite.png';
-@twitter: 98px 0px -98px 0px 20px 16px 118px 16px '../img/sprite.png' 'twitter';
-@spritesheet-width: 118px;
+@twitter: 138px 0px -138px 0px 20px 16px 158px 16px '../img/sprite.png' 'twitter';
+@spritesheet-width: 158px;
 @spritesheet-height: 16px;
 @spritesheet-image: '../img/sprite.png';
 @spritesheet-sprites: @basketball @cathead @facebook @instagramm @twitter;
-@spritesheet: 118px 16px '../img/sprite.png' @spritesheet-sprites;
+@spritesheet: 158px 16px '../img/sprite.png' @spritesheet-sprites;
 
 /*
 The provided classes are intended to be used with the array-like variables

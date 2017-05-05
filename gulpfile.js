@@ -31,7 +31,13 @@ gulp.task('fonts', function () {
             text: '/,.!@?#$%%&*())-12345677890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+=-!#'
         }))
         .pipe(gulp.dest('dist/fonts'));
+
+
 });
+gulp.task('cleanfonts',function () {
+    return del.sync(['dist/fonts/*.*','!dist/fonts/*.ttf']);
+})
+
 gulp.task('js-min',['babel'], function (cb) {
     pump([
             gulp.src('app/js/*.js'),
@@ -93,7 +99,7 @@ gulp.task('sprite', function() {
                 imgPath: '../img/sprite.png',
                 algorithm: 'left-right',
                 cssFormat: 'less',
-                padding: 10,
+                padding: 20,
             }));
 
     spriteData.img.pipe(gulp.dest('app/img')); // путь, куда сохраняем картинку
@@ -108,7 +114,7 @@ gulp.task('concat-less', function(){
         .pipe(concat('res.less'))
         .pipe(gulp.dest('app/less'));
 });
-gulp.task('build', ['clean','sprite','img','css-libs','fonts','js-min'], function() {
+gulp.task('build', ['clean','sprite','img','css-libs','fonts','js-min','cleanfonts'], function() {
 
     var buildCss = gulp.src('app/css/*.css')
         .pipe(gulp.dest('dist/css'))
@@ -116,6 +122,7 @@ gulp.task('build', ['clean','sprite','img','css-libs','fonts','js-min'], functio
 
     var buildHtml = gulp.src('app/*.html')
         .pipe(gulp.dest('dist'));
+
 
 });
 gulp.task('img', function() {
