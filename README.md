@@ -1,4 +1,6 @@
 # WebProject
+UPDATE: 06.05.2017
+Была доделана мобильная версия сайта, также добавлены все требуемые оптимизации, из JS пока отсутствует popup форма, обработка из JSON, тесты
 WebSite for MMCS course
   * Result: https://dips3095.github.io/WebProject/dist/
   * Preview: 
