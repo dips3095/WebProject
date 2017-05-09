@@ -836,9 +836,7 @@ a {
     }
 
   }
-  button {
-    //flex: 1 0 36px;
-
+  .popup_open{
     min-height: 36px;
     padding: 9px;
     outline: 0;
@@ -853,6 +851,110 @@ a {
       width: 18px;
     }
 
+  }
+}
+.popup {
+
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,.4);
+  .popup_form {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+    height: 400px;
+    width: 400px;
+
+
+
+    .popup_close {
+      align-self: flex-end;
+      cursor: pointer;
+      color: red;
+    }
+    .popup_email {
+      line-height: 36px;
+      border: 0;
+      margin: 10px auto;
+      padding-left: 10px;
+      outline: 0;
+      width: 100%;
+      font-family: Roboto-Regular;
+      font-size: 13px;
+      color: #83a7a5;
+      font-weight: bold;
+      background-color: #eef1ec;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+
+      &::-webkit-input-placeholder {
+        color: #83a7a5;
+      }
+
+    }
+    .popup_name {
+      line-height: 36px;
+      border: 0;
+      margin: 10px auto;
+      padding-left: 10px;
+      width: 100%;
+      outline: 0;
+      font-family: Roboto-Regular;
+      font-size: 13px;
+      color: #83a7a5;
+      background-color: #eef1ec;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+      font-weight: bold;
+      &::-webkit-input-placeholder {
+        color: #83a7a5;
+      }
+
+    }
+    .popup_text {
+      line-height: 15px;
+      border: 0;
+      margin: 10px 0;
+      max-width: 100%;
+      padding: 10px;
+      outline: 0;
+      font-family: Roboto-Regular;
+      font-size: 13px;
+      color: #83a7a5;
+      background-color: #eef1ec;
+      font-weight: bold;
+      border: 0;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+      &::-webkit-input-placeholder {
+        color: #83a7a5;
+      }
+
+    }
+    .popup_send {
+      font-size: 13px;
+      font-family: Montserrat-Regular;
+      font-weight: bold;
+      color: #eee;
+      display: block;
+      min-height: 42px;
+      border: 0;
+      background-color: #3EB23C;
+      border-radius: 2px;
+      text-align: center;
+      padding: 13px 0;
+      text-transform: uppercase;
+      margin: 20px 0;
+      transition: .3s;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+      &:hover {
+        background-color: saturate(#3EB23C, 20%);
+      }
+    }
   }
 }
 
@@ -1047,6 +1149,9 @@ a {
     }
 
   }
+  .popup_form{
+    max-width: 270px;
+  }
   .middleblock{
     padding-top: 0;
 
@@ -1089,75 +1194,71 @@ a {
       }
     }
   }
-.mapbox{
-  .earth_image{
-    img{
-      display: block;
-      width: 100%;
-    }
+  .mapbox{
+    .earth_image{
+      img{
+        display: block;
+        width: 100%;
+      }
 
+    }
   }
-}
-.priceplan {
-  min-height: 100%;
-  .advblock {
-    width: 31%;
+  .priceplan {
     min-height: 100%;
-    padding: 0;
+    .advblock {
+      width: 31%;
+      min-height: 100%;
+      padding: 0;
 
-    .price {
-      font-size: 32px;
-    }
-    .period {
-      font-size: 10px;
-    }
-    .info {
-    font-size: 10px;
-    }
-    .button {
-      font-size: 9px;
-      min-height: 42px;
-      max-width: 83px;
+      .price {
+        font-size: 32px;
+      }
+      .period {
+        font-size: 10px;
+      }
+      .info {
+        font-size: 10px;
+      }
+      .button {
+        font-size: 9px;
+        min-height: 42px;
+        max-width: 83px;
+      }
     }
   }
-}
 
-.advoptions{
-//flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  //margin: 0 14%;
-}
-.helpbar{
-  margin: 0;
-}
+  .advoptions{
+    //flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    //margin: 0 14%;
+  }
+  .helpbar{
+    margin: 0;
+  }
   .downloadblock{
     margin-bottom: 6%;
   }
-.finalsection{
+  .finalsection{
 
-.info_columns{
+    .info_columns{
 
 
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 
-}
-}
-.downloadblock{
-  .button{
-    width: 50%;
-    margin: 0 auto;
+    }
   }
-}
-.bottominfo {
-
-  .copyright {
-    display: none;
+  .downloadblock{
+    .button{
+      width: 50%;
+      margin: 0 auto;
+    }
   }
-}
+  .bottominfo {
+
+    .copyright {
+      display: none;
+    }
+  }
 
 }
-
-
-
-

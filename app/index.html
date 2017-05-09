@@ -7,7 +7,15 @@
 <link rel="stylesheet" href="css/res.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-
+<div class="popup" id="popup">
+    <form class="popup_form">
+        <div class="popup_close" id="popup_close">✖</div>
+        <input  class="popup_name" placeholder="Name">
+        <input  class="popup_email" placeholder="Email">
+        <textarea class="popup_text" placeholder="Describe your subject" rows="3"></textarea>
+        <button class="popup_send" type="submit" value="Send Message" >Send</button>
+    </form>
+</div>
 <div class="masthead">
     <div class="container">
         <div class="header">
@@ -339,7 +347,7 @@
             <div class="info_text">Subscribe to our newsletter and get all<br> the cool news</div>
             <form class="emailbox">
                 <input type="email" placeholder="Enter Email">
-                <button><img class="icon" src="img/Home_0000s_0001s_0000s_0001_Vector-Smart-Object.png"> </button>
+                <div class="popup_open" id="popup_open"><img class="icon" src="img/Home_0000s_0001s_0000s_0001_Vector-Smart-Object.png"> </div>
             </form>
         </div>
 
@@ -362,5 +370,7 @@
 </div>
 <script src="js/burger.js"> </script>
 <script src="js/slider.js"> </script>
+<script src="js/popup.js"></script>
+
 </body>
 </html>

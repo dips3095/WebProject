@@ -1,7 +1,7 @@
 "use strict";
 
-let burger = document.getElementById("burger-button");
-let area = document.getElementById("area");
+const burger = document.getElementById("burger-button");
+const area = document.getElementById("area");
 
 burger.addEventListener("click", (e)=> {
     e.preventDefault();
