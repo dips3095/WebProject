@@ -24,14 +24,7 @@ function reset_error(el) {
     el.style.backgroundColor = "#eef1ec";
 }
 function validate(el, reg) {
-    var res = true;
-    if (!el.value) {
-        res = false;
-    }
-    if (!reg.test(el.value)) {
-        res = false;
-    }
-    if (!res) {
+    if (!(el.value && reg.test(el.value))) {
         show_error(el);
         return false;
     }

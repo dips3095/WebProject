@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c5bd95a-932d-44e1-bdb1-6bcab8e8f648" name="Default" comment="fix name validation">
+    <list default="true" id="8c5bd95a-932d-44e1-bdb1-6bcab8e8f648" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Merriweather-Light.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Merriweather-Light.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/MyriadProRegular.ttf" afterPath="$PROJECT_DIR$/dist/fonts/MyriadProRegular.ttf" />
@@ -10,12 +10,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/normalize.css" afterPath="$PROJECT_DIR$/app/css/normalize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/es2015/popup.js" afterPath="$PROJECT_DIR$/app/js/es2015/popup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/popup.js" afterPath="$PROJECT_DIR$/app/js/popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/normalize.css" afterPath="$PROJECT_DIR$/dist/css/normalize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/popup.js" afterPath="$PROJECT_DIR$/dist/js/popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="popup.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/es2015/popup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="306">
+              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -67,18 +64,13 @@
       <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/popup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
-                <marker date="1494488924934" expanded="true" signature="477:514" ph="{...}" />
-                <marker date="1494488924934" expanded="true" signature="550:587" ph="{...}" />
-                <marker date="1494488924934" expanded="true" signature="613:723" ph="{...}" />
-                <marker date="1494488924934" expanded="true" signature="749:879" ph="{...}" />
-                <marker date="1494488924934" expanded="true" signature="907:1142" ph="{...}" />
-                <marker date="1494488924934" expanded="true" signature="948:976" ph="{...}" />
-                <marker date="1494488924934" expanded="true" signature="1006:1034" ph="{...}" />
-                <marker date="1494488924934" expanded="true" signature="1049:1102" ph="{...}" />
-                <marker date="1494488924934" expanded="true" signature="1177:1387" ph="{...}" />
+                <marker date="1494489633236" expanded="true" signature="907:1045" ph="{...}" />
+                <marker date="1494489633236" expanded="true" signature="1080:1290" ph="{...}" />
+                <marker date="1494489633236" expanded="true" signature="1342:1382" ph="{...}" />
+                <marker date="1494489633236" expanded="true" signature="1434:1473" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/css/normalize.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2830">
@@ -200,13 +192,13 @@
         <option value="$PROJECT_DIR$/app/js/burger.js" />
         <option value="$PROJECT_DIR$/app/js/slider.js" />
         <option value="$PROJECT_DIR$/app/js/es2015/burger.js" />
-        <option value="$PROJECT_DIR$/app/js/es2015/slider.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/less/styles/astyle.less" />
         <option value="$PROJECT_DIR$/app/js/popup.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/js/es2015/popup.js" />
         <option value="$PROJECT_DIR$/app/css/normalize.css" />
+        <option value="$PROJECT_DIR$/app/js/es2015/slider.js" />
+        <option value="$PROJECT_DIR$/app/js/es2015/popup.js" />
       </list>
     </option>
   </component>
@@ -567,8 +559,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Gulp.js.build" />
-        <item index="1" class="java.lang.String" itemvalue="Gulp.js.default" />
-        <item index="2" class="java.lang.String" itemvalue="Gulp.js.babel" />
+        <item index="1" class="java.lang.String" itemvalue="Gulp.js.babel" />
+        <item index="2" class="java.lang.String" itemvalue="Gulp.js.default" />
         <item index="3" class="java.lang.String" itemvalue="Gulp.js.css-libs" />
         <item index="4" class="java.lang.String" itemvalue="Gulp.js.clean" />
       </list>
@@ -611,7 +603,7 @@
       <workItem from="1494335774954" duration="1558000" />
       <workItem from="1494364148166" duration="6825000" />
       <workItem from="1494455333105" duration="7607000" />
-      <workItem from="1494488401680" duration="532000" />
+      <workItem from="1494488401680" duration="1333000" />
     </task>
     <task id="LOCAL-00001" summary="Added popup form with validation">
       <created>1494462232536</created>
@@ -620,11 +612,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494462232536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix name validation">
+      <created>1494488987832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494488987832</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216598000" />
+    <option name="totallyTimeSpent" value="217399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -642,10 +641,10 @@
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.19762845" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.80237156" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5171875" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19767442" sideWeight="0.52708334" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15010571" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19767442" sideWeight="0.46822917" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19767442" sideWeight="0.47291666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -708,7 +707,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added popup form with validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added popup form with validation" />
+    <MESSAGE value="fix name validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix name validation" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -894,6 +894,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18675">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,45 +928,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/es2015/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/es2015/burger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/less/styles/astyle.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17255">
           <caret line="1015" column="7" lean-forward="false" selection-start-line="1015" selection-start-column="7" selection-end-line="1015" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/popup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <marker date="1494488924934" expanded="true" signature="477:514" ph="{...}" />
-            <marker date="1494488924934" expanded="true" signature="550:587" ph="{...}" />
-            <marker date="1494488924934" expanded="true" signature="613:723" ph="{...}" />
-            <marker date="1494488924934" expanded="true" signature="749:879" ph="{...}" />
-            <marker date="1494488924934" expanded="true" signature="907:1142" ph="{...}" />
-            <marker date="1494488924934" expanded="true" signature="948:976" ph="{...}" />
-            <marker date="1494488924934" expanded="true" signature="1006:1034" ph="{...}" />
-            <marker date="1494488924934" expanded="true" signature="1049:1102" ph="{...}" />
-            <marker date="1494488924934" expanded="true" signature="1177:1387" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/es2015/popup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1010,6 +969,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2830">
           <caret line="407" column="0" lean-forward="false" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <marker date="1494489633236" expanded="true" signature="907:1045" ph="{...}" />
+            <marker date="1494489633236" expanded="true" signature="1080:1290" ph="{...}" />
+            <marker date="1494489633236" expanded="true" signature="1342:1382" ph="{...}" />
+            <marker date="1494489633236" expanded="true" signature="1434:1473" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/es2015/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/es2015/burger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/es2015/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding />
         </state>
       </provider>
