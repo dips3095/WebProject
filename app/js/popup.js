@@ -7,7 +7,7 @@ var popup_name = document.getElementById("popup_name");
 var popup_email = document.getElementById("popup_email");
 var popup_send = document.getElementById("popup_send");
 var reg_email = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-var reg_name = /^[a-zA-Z]+$/;
+var reg_name = /^[a-zA-Z ]+$/;
 
 popup_open.onclick = function () {
     popup.style.display = "flex";

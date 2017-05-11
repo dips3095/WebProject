@@ -7,7 +7,7 @@ const popup_name = document.getElementById("popup_name");
 const popup_email = document.getElementById("popup_email");
 const popup_send = document.getElementById("popup_send");
 const reg_email = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-const reg_name = /^[a-zA-Z]+$/;
+const reg_name = /^[a-zA-Z ]+$/;
 
 
 popup_open.onclick = () => {
