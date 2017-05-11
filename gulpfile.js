@@ -34,9 +34,6 @@ gulp.task('fonts', function () {
 
 
 });
-gulp.task('cleanfonts',function () {
-    return del.sync(['dist/fonts/*.*','!dist/fonts/*.ttf']);
-})
 
 gulp.task('js-min',['babel'], function (cb) {
     pump([
@@ -114,7 +111,7 @@ gulp.task('concat-less', function(){
         .pipe(concat('res.less'))
         .pipe(gulp.dest('app/less'));
 });
-gulp.task('build', ['clean','sprite','img','css-libs','fonts','js-min','cleanfonts'], function() {
+gulp.task('build', ['clean', 'sprite', 'img', 'css-libs', 'fonts', 'js-min'], function () {
 
     var buildCss = gulp.src('app/css/*.css')
         .pipe(gulp.dest('dist/css'))
@@ -122,6 +119,10 @@ gulp.task('build', ['clean','sprite','img','css-libs','fonts','js-min','cleanfon
 
     var buildHtml = gulp.src('app/*.html')
         .pipe(gulp.dest('dist'));
+
+    var cleanfonts = del.sync(['dist/fonts/*.*', '!dist/fonts/*.ttf']);
+
+
 
 
 });
