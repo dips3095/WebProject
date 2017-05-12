@@ -40,6 +40,11 @@ describe("Validation email field", () => {
         popup_email.value = "test@google.ccccccom"
         assert.equal(validate(popup_email, reg_email), false)
     })
+    after(() => {
+        popup_email.value = ""
+        reset_error(popup_email)
+    })
+
 })
 
 describe("Validation name field", () => {
@@ -54,5 +59,9 @@ describe("Validation name field", () => {
     it("incorrect symbols in name", () => {
         popup_name.value = "name123"
         assert.equal(validate(popup_name, reg_name), false)
+    })
+    after(() => {
+        popup_name.value = ""
+        reset_error(popup_name)
     })
 })

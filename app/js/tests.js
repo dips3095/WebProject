@@ -41,6 +41,10 @@ describe("Validation email field", function () {
         popup_email.value = "test@google.ccccccom";
         assert.equal(validate(popup_email, reg_email), false);
     });
+    after(function () {
+        popup_email.value = "";
+        reset_error(popup_email);
+    });
 });
 
 describe("Validation name field", function () {
@@ -55,5 +59,9 @@ describe("Validation name field", function () {
     it("incorrect symbols in name", function () {
         popup_name.value = "name123";
         assert.equal(validate(popup_name, reg_name), false);
+    });
+    after(function () {
+        popup_name.value = "";
+        reset_error(popup_name);
     });
 });
