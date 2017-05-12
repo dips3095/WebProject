@@ -120,6 +120,8 @@ gulp.task('build', ['clean', 'sprite', 'img', 'css-libs', 'fonts', 'js-min'], fu
 
     var buildHtml = gulp.src('app/*.html')
         .pipe(gulp.dest('dist'));
+    var buildjson = gulp.src('app/json/*.json')
+        .pipe(gulp.dest('dist/json'));
 
     var cleanfonts = del.sync(['dist/fonts/*.*', '!dist/fonts/*.ttf']);
 

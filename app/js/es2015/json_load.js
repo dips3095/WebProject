@@ -32,9 +32,10 @@ function GetJSON(path) {
         xhr.open('GET', path, true)
         xhr.timeout = 30000
         xhr.send()
-        xhr.onload = () => {
+        xhr.onload = function () {
+
             if (this.status == 200) {
-                alert("sucess!")
+
                 resolve(this.response);
             } else {
                 reject(new Error("error occured!"))
@@ -59,7 +60,8 @@ function promiseXMLHTTP(path, arr) {
             let data = JSON.parse(success)
             arr.forEach((e) => {
                 let el = document.getElementById(e)
-                el.textContent = data[e]
+                el.textContent = "";
+                el.insertAdjacentHTML('beforeend', data[e]);
             })
         },
         (error) => {
