@@ -1,4 +1,7 @@
 # WebProject
+UPDATE: 11.05.2017: 
+Добавлена загрузка текста через XMLHTTPREQUEST
+
 UPDATE: 10.05.2017: 
 Сделана popup форма с валидацией
 
