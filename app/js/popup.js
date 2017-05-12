@@ -36,13 +36,14 @@ popup_send.onclick = function () {
     var res = validate(popup_email, reg_email);
     var res1 = validate(popup_name, reg_name);
     if (!(res && res1)) return false;
-    alert("success email!");
-    alert("success name!");
+    /*alert("success email!")
+     alert("success name!")*/
+    popup.style.display = "none";
     return true;
 };
-popup_email.addEventListener("click", function () {
+popup_email.addEventListener("focus", function () {
     return reset_error(popup_email);
 });
-popup_name.addEventListener("click", function () {
+popup_name.addEventListener("focus", function () {
     return reset_error(popup_name);
 });

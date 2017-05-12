@@ -47,7 +47,8 @@ gulp.task('js-min',['babel'], function (cb) {
 gulp.task('browser-sync', function() { // Создаем таск browser-sync
     browserSync({ // Выполняем browser Sync
         server: { // Определяем параметры сервера
-            baseDir: 'app' // Директория для сервера - app
+            baseDir: 'app', // Директория для сервера - app
+            server: "app"
         },
         notify: false // Отключаем уведомления
     });
