@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5bd95a-932d-44e1-bdb1-6bcab8e8f648" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Merriweather-Light.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Merriweather-Light.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Montserrat-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/MyriadProRegular.ttf" afterPath="$PROJECT_DIR$/dist/fonts/MyriadProRegular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/ProximaNovaBold.ttf" afterPath="$PROJECT_DIR$/dist/fonts/ProximaNovaBold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Light.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/es2015/json_load.js" afterPath="$PROJECT_DIR$/app/js/es2015/json_load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/json_load.js" afterPath="$PROJECT_DIR$/app/js/json_load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/popup.js" afterPath="$PROJECT_DIR$/app/js/popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/popup.js" afterPath="$PROJECT_DIR$/dist/js/popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +31,8 @@
       <file leaf-file-name="json_load.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/es2015/json_load.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="62" column="34" lean-forward="false" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+            <state relative-caret-position="459">
+              <caret line="62" column="36" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -581,7 +567,7 @@
       <workItem from="1494488401680" duration="1383000" />
       <workItem from="1494518270279" duration="16333000" />
       <workItem from="1494548804915" duration="1050000" />
-      <workItem from="1494574136431" duration="2859000" />
+      <workItem from="1494574136431" duration="2950000" />
     </task>
     <task id="LOCAL-00001" summary="Added popup form with validation">
       <created>1494462232536</created>
@@ -611,11 +597,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494548887074</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix htmlhttprequest">
+      <created>1494577054678</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1494577054678</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237691000" />
+    <option name="totallyTimeSpent" value="237782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,7 +674,8 @@
     <MESSAGE value="fix name validation" />
     <MESSAGE value="js fixes" />
     <MESSAGE value="added xmlhttprequest" />
-    <option name="LAST_COMMIT_MESSAGE" value="added xmlhttprequest" />
+    <MESSAGE value="fix htmlhttprequest" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix htmlhttprequest" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -982,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/es2015/json_load.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="62" column="34" lean-forward="false" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+        <state relative-caret-position="459">
+          <caret line="62" column="36" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
           <folding />
         </state>
       </provider>
