@@ -15,7 +15,6 @@ let Show = () => {
     start = (start + 1) % imgArr.length
     slideArea.style.backgroundImage = imgArr[start]
     slideArea.style.transitionDuration = '2.5s'
-
 }
 setInterval(Show, delay)
 
